@@ -24,7 +24,7 @@ async function handle(event) {
     }
     const newUrl = new URL("https://" + sinaUrl);
     if (!newUrl.hostname.includes("sinaimg.cn")) {
-        return new Response('This is a Teapot', {status: 418});
+        return new Response('404 Not Found', {status: 404});
     }
     // 检查Cloudflare缓存
     let response = await cache.match(newUrl);
@@ -46,7 +46,7 @@ async function handle(event) {
         cf: {polish: "lossless"}
     });
     if (response.status !== 200 || !response.headers.get("Content-Type").includes("image")) {
-        return new Response('This is a Teapot', {status: 418});
+        return new Response('404 Not Found', {status: 404});
     }
     Object.assign(resHdrs, response.headers);
     response = new Response(response.body, {
