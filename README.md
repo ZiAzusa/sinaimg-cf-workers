@@ -6,8 +6,7 @@
 直接将index.js全部复制粘贴到Cloudflare Workers的代码编辑框里即可，替换里面的全部内容，然后部署Workers
 
 ### 使用方法
-在原本的新浪图床链接前拼接上你的Cloudflare Workers域名即可正常获取图片<br>
-例：<br>
+在原本的新浪图床链接前拼接上你的Cloudflare Workers域名即可正常获取图片，以下是例子：<br>
 <b>新浪图床链接（有防盗链，不能直接访问）：<a href='https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg'>→</a></b>
 ```HTTP
 GET https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
