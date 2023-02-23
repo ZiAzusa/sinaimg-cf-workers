@@ -20,7 +20,7 @@ GET https://server.domain.workers.dev/https://tva1.sinaimg.cn/large/ec43126fgy1g
 ```HTTP
 GET https://server.domain.workers.dev/tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
-<table style='height:100px;'><img src='https://sinaimg.nahida.fun/tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg' /></table>
+<table style='height:100px;'><td><img src='https://sinaimg.nahida.fun/tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg' /></td></table>
 
 ### 效果展示
 个人搭建的代理地址：https://sinaimg.nahida.fun/新浪图床链接<br>
