@@ -10,15 +10,15 @@
 例：<br>
 <b>新浪图床链接（有防盗链，不能直接访问）：</b>
 ```HTTP
-GET https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
+https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
 <b>通过Cloudflare Workers代理的链接：</b>
 ```HTTP
-GET https://server.domain.workers.dev/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
+https://server.domain.workers.dev/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
 或者可以省略HTTPS：
 ```HTTP
-GET https://server.domain.workers.dev/tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
+https://server.domain.workers.dev/tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
 
 ### 效果展示
