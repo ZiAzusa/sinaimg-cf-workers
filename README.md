@@ -23,4 +23,4 @@ GET https://server.domain.workers.dev/https://tva1.sinaimg.cn/large/ec43126fgy1g
 GET https://server.domain.workers.dev/tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
 效果：<br>
-![这是CF代理的链接](https://sinaimg.nahida.fun/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg "这是CF代理的链接")<br>
+![这是CF代理的链接](https://sinaimg.nahida.fun/tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg "这是CF代理的链接")<br>
