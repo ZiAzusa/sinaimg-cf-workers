@@ -8,11 +8,11 @@
 ### 使用方法
 在原本的新浪图床链接前拼接上你的Cloudflare Workers域名即可正常获取图片<br>
 例：<br>
-<b>新浪图床链接（有防盗链，不能直接访问）：<a href='https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg' target='_blank'>→</a></b>
+<b>新浪图床链接（有防盗链，不能直接访问）：<a href='https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg'>→</a></b>
 ```HTTP
 GET https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
-<b>通过Cloudflare Workers代理的链接：<a href='https://sinaimg.nahida.fun/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg' target='_blank'>→</a></b>
+<b>通过Cloudflare Workers代理的链接：<a href='https://sinaimg.nahida.fun/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg'>→</a></b>
 ```HTTP
 GET https://server.domain.workers.dev/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
