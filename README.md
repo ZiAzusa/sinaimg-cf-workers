@@ -22,7 +22,7 @@ GET https://server.domain.workers.dev/tva1.sinaimg.cn/large/ec43126fgy1go4femy66
 ```
 
 ### 效果展示
-个人搭建的代理地址：https://sinaimg.nahida.fun/<br>
+个人搭建的代理地址：https://sinaimg.nahida.fun/[新浪图床链接]<br>
 注：如需使用请自行搭建，Workers免费版每天有10万调用限制
 
 ---
