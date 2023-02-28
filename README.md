@@ -1,4 +1,7 @@
 # SinaImg Cloudflare Workers
+![maven](https://img.shields.io/badge/JavaScript-yellow)
+![maven](https://img.shields.io/badge/Sina%20Image%20Hosting-yellow)
+![maven](https://img.shields.io/badge/Cloudflare%20Workers-orange)<br>
 新浪图床的Cloudflare Workers反向代理脚本，解决因防盗链造成的图片不可用问题<br>
 此代理脚本利用了Cloudflare的缓存机制，避免重复回源新浪图床造成时间上的浪费
 
