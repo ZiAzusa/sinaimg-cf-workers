@@ -6,7 +6,7 @@
 此代理脚本利用了Cloudflare的缓存机制，避免重复回源新浪图床造成时间上的浪费
 
 ### 部署方法
-直接将index.js全部复制粘贴到Cloudflare Workers的代码编辑框里即可，替换里面的全部内容，然后部署Workers
+直接将 [index.js](https://github.com/ZiAzusa/sinaimg-cf-workers/blob/main/index.js) 全部复制粘贴到Cloudflare Workers的代码编辑框里即可，替换里面的全部内容，然后部署Workers
 
 ### 使用方法
 在原本的新浪图床链接前拼接上你的Cloudflare Workers域名即可正常获取图片，以下是例子：<br><br>
