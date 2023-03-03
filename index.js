@@ -29,7 +29,7 @@ async function handle(event) {
     // 检查Cloudflare缓存
     let response = await cache.match(newUrl);
     if (response) {
-        resHdrs.set('Content-Type', response.headers.get("Content-Type"))
+        resHdrs.set('Content-Type', response.headers.get("Content-Type"));
         resHdrs.set('X-Worker-Cache', "true");
         return new Response(response.body, {
             status: response.status,
@@ -48,7 +48,7 @@ async function handle(event) {
     if (!response.ok || !response.headers.get("Content-Type").includes("image")) {
         return new Response('404 Not Found', {status: 404});
     }
-    resHdrs.set('Content-Type', response.headers.get("Content-Type"))
+    resHdrs.set('Content-Type', response.headers.get("Content-Type"));
     response = new Response(response.body, {
         status: response.status,
         statusText: response.statusText,
