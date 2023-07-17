@@ -14,7 +14,7 @@
 ```HTTP
 GET https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
-<b>通过Cloudflare Workers代理的链接：<a href='https://sinaimg.nahida.fun/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg'>→</a></b>
+<b>通过Cloudflare Workers代理的链接：<a href='https://sinaimg.nahida.xin/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg'>→</a></b>
 ```HTTP
 GET https://server.domain.workers.dev/https://tva1.sinaimg.cn/large/ec43126fgy1go4femy66vj228e35px6q.jpg
 ```
@@ -24,7 +24,7 @@ GET https://server.domain.workers.dev/tva1.sinaimg.cn/large/ec43126fgy1go4femy66
 ```
 
 ### 效果展示
-个人搭建的代理地址：https://sinaimg.nahida.fun/新浪图床链接<br>
+个人搭建的代理地址：https://sinaimg.nahida.xin/新浪图床链接<br>
 注：如需使用请自行搭建，Workers免费版每天有10万调用限制
 
 ---
