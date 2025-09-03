@@ -40,8 +40,8 @@ async function handle(event) {
     // 回源新浪图床
     response = await fetch(newUrl, {
         headers: {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41",
-            "Referer": "https://www.weibo.com/"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0",
+            "Referer": "https://weibo.cn/"
         },
         cf: {polish: "lossless"}
     });
